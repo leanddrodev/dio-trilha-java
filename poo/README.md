@@ -148,5 +148,5 @@ style IPhone fill:#ffff88,stroke:#36393d,stroke-width:2px
 
 2. **Classes em Java**
 
-- Código em Java [(Clique aqui).] (https://github.com/leanddrodev/dio-trilha-java-basico/tree/main/poo/src)
+- Código em Java [(Clique aqui).](https://github.com/leanddrodev/dio-trilha-java-basico/tree/main/poo/src)
 
