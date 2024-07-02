@@ -1,4 +1,4 @@
-package com.leanddrodev.lab_padroes_projeto_spring;
+package com.leanddrodev.gof;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
