@@ -138,7 +138,5 @@ style Safari fill:#ffff88,stroke:#36393d,stroke-width:2px
 style IPhone fill:#ffff88,stroke:#36393d,stroke-width:2px
 ```
 
-- **Classes em Java**
-
-[(Clique aqui).](https://github.com/leanddrodev/dio-trilha-java-basico/tree/main/desafio-modelando-iphone-uml/src)
+- **Classes em Java**: [(Clique aqui).](https://github.com/leanddrodev/dio-trilha-java-basico/tree/main/desafio-modelando-iphone-uml/src)
 
