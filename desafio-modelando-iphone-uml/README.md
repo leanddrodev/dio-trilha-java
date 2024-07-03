@@ -58,8 +58,7 @@ https://github.com/glysns/trilha-java-basico/desafios/poo/README.md
 
 ## Resposta do Desafio - Diagrama UML (Mermaid) e Código em Java
 
-### Aluno
-- [Leandro Silva](https://github.com/leanddrodev)
+- **Aluno**: [Leandro Silva](https://github.com/leanddrodev)
 
 - **Diagrama de Classes**
 
