@@ -1,18 +1,44 @@
-## Getting Started
+## Desafio - Controle de Fluxo
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+O sistema deverá receber dois parâmetros via terminal, que representarão dois números inteiros. A subtração do maior pelo menor determinará a quantidade de interações (for), imprimindo no console os números incrementados a cada laço. Caso o primeiro número seja maior que o primeiro, o sistema lançará uma exceção.
 
-## Folder Structure
+```java
+import java.util.Scanner;
 
-The workspace contains two folders by default, where:
+public class Contador {
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+    public static void main(String[] args) {
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+        Scanner scanner = new Scanner(System.in);
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+        System.out.println("Digite o primerio parâmetro:");
+        int parametroUm = scanner.nextInt();
 
-## Dependency Management
+        System.out.println("Digite o segundo parâmetro:");
+        int parametroDois = scanner.nextInt();
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+        try {
+            contar(parametroUm, parametroDois);
+        } catch (ParametrosInvalidosException e) {
+            System.out.println("O segundo parâmetro deve ser maior que o primeiro");
+        }
+
+        scanner.close();
+
+    }
+
+    static void contar(int parametroUm, int parametroDois ) throws ParametrosInvalidosException {
+        
+        if(parametroUm > parametroDois)
+            throw new ParametrosInvalidosException();
+        
+        int contagem = parametroDois - parametroUm;
+
+        for (int i = 1; i <= contagem; i++)
+            System.out.println("Imprimindo o número " + i);
+
+	}
+
+}
+```
+
