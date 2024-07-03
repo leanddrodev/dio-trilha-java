@@ -1,21 +1,14 @@
-# [DIO](www.dio.me) - Trilha Java Básico
+# Desafio - Modelagem e Diagramação de um Componente iPhone
 
-## Autores
-- [Gleyson Sampaio](https://github.com/glysns)
+Modelar e diagramar a representação UML do componente iPhone, abrangendo suas funcionalidades como Reprodutor Musical, Aparelho Telefônico e Navegador na Internet.
 
-## POO - Desafio
-
-### Modelagem e Diagramação de um Componente iPhone
-
-Neste desafio, você será responsável por modelar e diagramar a representação UML do componente iPhone, abrangendo suas funcionalidades como Reprodutor Musical, Aparelho Telefônico e Navegador na Internet.
-
-#### Contexto
-Com base no vídeo de lançamento do iPhone de 2007 (link abaixo), você deve elaborar a diagramação das classes e interfaces utilizando uma ferramenta UML de sua preferência. Em seguida, implemente as classes e interfaces no formato de arquivos `.java`.
+## Contexto
+Com base no vídeo de lançamento do iPhone de 2007 (link abaixo), elaborar a diagramação das classes e interfaces utilizando uma ferramenta UML (draw.io, mermaid.js.org). Em seguida, implementar as classes e interfaces no formato de arquivos `.java` (opcional).
 
 [Lançamento iPhone 2007](https://www.youtube.com/watch?v=9ou608QQRq8)
 - Minutos relevantes: 00:15 até 00:55
 
-#### Funcionalidades a Modelar
+### Funcionalidades a Modelar
 1. **Reprodutor Musical**
    - Métodos: `tocar()`, `pausar()`, `selecionarMusica(String musica)`
 2. **Aparelho Telefônico**
@@ -54,10 +47,10 @@ classDiagram
 ```
 
 ### Instruções
-1. Assista ao vídeo do lançamento do iPhone para entender as funcionalidades principais.
-2. Utilize uma ferramenta UML de sua preferência para criar o diagrama das classes e interfaces. Você pode utilizar o modelo acima (criado na sintaxe [Mermaid](https://mermaid.js.org/)), uma alternativa open-source e compatível com arquivos Markdown como este.
-3. Opcionalmente, caso esteja cheio(a) de confiança, pode implementar as classes Java representadas em seu diagrama UML.
-4. Submeta seu repositório GitHub conforme as orientações da plataforma DIO. Por exemplo:
+1. Assistir ao vídeo do lançamento do iPhone para entender as funcionalidades principais.
+2. Utilizar uma ferramenta UML para criar o diagrama das classes e interfaces. Pode-se utilizar o modelo acima (criado na sintaxe [Mermaid](https://mermaid.js.org/)), uma alternativa open-source e compatível com arquivos Markdown como este.
+3. Opcionalmente, pode-se implementar as classes Java representadas no diagrama UML.
+4. Submeter o repositório no GitHub conforme as orientações da plataforma DIO. Por exemplo:
 
 ```bash
 https://github.com/glysns/trilha-java-basico/desafios/poo/README.md
@@ -68,7 +61,7 @@ https://github.com/glysns/trilha-java-basico/desafios/poo/README.md
 ### Aluno
 - [Leandro Silva](https://github.com/leanddrodev)
 
-1. **Diagrama de Classes**
+- **Diagrama de Classes**
 
 ```mermaid
 ---
@@ -146,7 +139,7 @@ style Safari fill:#ffff88,stroke:#36393d,stroke-width:2px
 style IPhone fill:#ffff88,stroke:#36393d,stroke-width:2px
 ```
 
-2. **Classes em Java**
+- **Classes em Java**
 
-- Código em Java [(Clique aqui).](https://github.com/leanddrodev/dio-trilha-java-basico/tree/main/poo/src)
+[(Clique aqui).](https://github.com/leanddrodev/dio-trilha-java-basico/tree/main/desafio-modelando-iphone-uml/src)
 
