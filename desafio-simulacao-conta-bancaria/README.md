@@ -1,18 +1,33 @@
-## Getting Started
+## Desafio - Simulação Conta Bancária
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+O sistema simula a criação de uma conta de banco no terminal. São digitados a conta, a agência, o nome do cliente e o saldo inicial. Ao término, são impressos no console um agradecimento e os dados de criação da conta bancária.
 
-## Folder Structure
+```java
+import java.util.Locale;
+import java.util.Scanner;
 
-The workspace contains two folders by default, where:
+public class ContaTerminal {
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+    public static void main(String[] args) {
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+        Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+        System.out.println("Por favor, digite o número da Conta:");
+        int numero = scanner.nextInt();
 
-## Dependency Management
+        System.out.println("Por favor, digite o número da Agência:");
+        String agencia = scanner.next();
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+        System.out.println("Por favor, digite o seu Nome:");
+        String nomeCliente = scanner.next();
+
+        System.out.println("Digite seu Saldo:");
+        double saldo = scanner.nextDouble();
+
+        scanner.close();
+
+        System.out.println("Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é " + agencia + ", conta " + numero + " e seu saldo " + saldo + " já está disponível para saque.");
+
+    }
+}
+```
